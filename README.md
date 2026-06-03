@@ -1,1 +1,1 @@
-# etch-a-sketch
+This project utilizes HTML, JavaScript, and CSS to make something between a sketchpad and Ethc-A-Sketch.
