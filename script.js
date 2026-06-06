@@ -39,3 +39,16 @@ function removeGrid(){
    container.innerHTML = "";
 }
 
+//Adding button and user input.
+const button = document.querySelector('.btn');
+button.addEventListener('click', ()=>{
+    let popup = prompt("How many squares per side?");
+    let userInput = Number(popup);
+    if(!isNaN(userInput) && userInput > 1 && userInput <= 100){
+        alert("Valid number accepted!");
+        removeGrid();
+        createGrid(userInput);
+    } else {
+        alert("Invalid number! Please enter a number between 1 and 100.")
+    }
+})
