@@ -24,11 +24,11 @@ margin-top: 15px;
     flex-wrap: wrap;
    width: 500px;
    height: 500px;
-   padding: 10px;
 }
 
 .grid-square{
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    outline: 1px solid grey;
 }
 button{
     border-radius: 10px;
