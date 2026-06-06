@@ -34,3 +34,8 @@ for(let i=0; i < gridSize * gridSize; i++){
 }
 createGrid(16)
 
+//Remove existing grid
+function removeGrid(){
+   container.innerHTML = "";
+}
+
